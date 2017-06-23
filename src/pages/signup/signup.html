@@ -1,0 +1,50 @@
+
+
+<ion-content class="login-div-box">
+  <div class="logo">
+ 	<img src="../assets/img/logo.png" />
+  </div>
+  <div class="signup-form">
+      <ion-list>
+      <ion-item>
+        <ion-label>
+            <img src="../assets/img/user.png" width="22px;" />
+        </ion-label>
+        <ion-input type="text" value="" placeholder="Firstname"></ion-input>
+      </ion-item>
+        <ion-item>
+        <ion-label>
+            <img src="../assets/img/user.png" width="22px;" />
+        </ion-label>
+        <ion-input type="text" value="" placeholder="Lastname"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+            <img src="../assets/img/password.png" width="18px;" />
+        </ion-label>
+        <ion-input type="password" value="" placeholder="Password"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+            <img src="../assets/img/password.png" width="18px;" />
+        </ion-label>
+        <ion-input type="password" value="" placeholder="Confirm Password"></ion-input>
+      </ion-item>
+    </ion-list>
+  </div>
+  <div class="checkbox-btn">
+    <ion-item>
+      <ion-label>
+      <span class="agree">Agree to the </span>
+      <span class="terms">terms & conditions</span>
+      </ion-label>
+      <ion-checkbox color="dark" checked="true"></ion-checkbox>
+    </ion-item>
+  </div>
+<div padding class="button-view">
+  <button block class="signin-btn" (click)='accountinfo()'>Sign In</button>
+</div>
+<div class="">
+	<h5 (click)='loginpage()' class="already_act">If you  have already account,Signin.</h5>
+</div>
+</ion-content>

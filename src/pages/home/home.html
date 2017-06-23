@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Dashboard</ion-title>
+    <ion-buttons end class="cart_icon_btn">
+      <button ion-button icon-only>
+        <ion-icon name="">
+          <img width="27px" src="assets/img/my_cart.png">
+        </ion-icon>
+        <span>5</span>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<div class="product-slider">
+  <ion-slides pager>
+
+  <ion-slide>
+    <img src="assets/img/slider_banner1.png">
+  </ion-slide>
+  <ion-slide>
+    <img src="assets/img/slider_banner1.png">
+  </ion-slide>
+  <ion-slide>
+    <img src="assets/img/slider_banner1.png">
+  </ion-slide>
+
+
+</ion-slides>
+</div>
+<div class="main-category-box" padding>
+  <div (click)='movetosuCate()' class="category">
+    <img src="assets/img/main1.png">
+  </div>
+  <div (click)='movetosuCate()' class="category">
+    <img src="assets/img/main2.png">
+  </div>
+
+  <div (click)='movetosuCate()' class="category">
+    <img src="assets/img/main3.png">
+  </div>
+  <div (click)='movetosuCate()' class="category">
+    <img src="assets/img/main4.png">
+  </div>
+  <div (click)='movetosuCate()' class="category">
+    <img src="assets/img/main5.png">
+  </div>
+  <div (click)='movetosuCate()' class="category">
+    <img src="assets/img/main6.png">
+  </div>
+</div>
+</ion-content>
